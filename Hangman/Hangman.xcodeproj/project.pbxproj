@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552DDFA21DCFFE6D004F6E3B /* MaxLengthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552DDFA11DCFFE6D004F6E3B /* MaxLengthTextField.swift */; };
 		EC93104C1C891F2C00BE736C /* hangman1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310451C891F2C00BE736C /* hangman1.gif */; };
 		EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310461C891F2C00BE736C /* hangman2.gif */; };
 		EC93104E1C891F2C00BE736C /* hangman3.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310471C891F2C00BE736C /* hangman3.gif */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		552DDFA11DCFFE6D004F6E3B /* MaxLengthTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxLengthTextField.swift; sourceTree = "<group>"; };
 		EC9310451C891F2C00BE736C /* hangman1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman1.gif; path = "basic-hangman-img/hangman1.gif"; sourceTree = "<group>"; };
 		EC9310461C891F2C00BE736C /* hangman2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman2.gif; path = "basic-hangman-img/hangman2.gif"; sourceTree = "<group>"; };
 		EC9310471C891F2C00BE736C /* hangman3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman3.gif; path = "basic-hangman-img/hangman3.gif"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				ECC94FB71C891E31006B4A98 /* StartScreenViewController.swift */,
 				ECC22F701C8917C200749E58 /* GameViewController.swift */,
+				552DDFA11DCFFE6D004F6E3B /* MaxLengthTextField.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 				ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */,
+				552DDFA21DCFFE6D004F6E3B /* MaxLengthTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
